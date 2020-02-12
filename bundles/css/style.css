@@ -7,6 +7,15 @@ body {
   padding: 0;
 }
 
+@font-face {
+  font-family: Regular;
+  src: url(/assets/fonts/product_sans_reg.ttf);
+}
+
+* {
+  font-family: Regular, Helvetica, Helvetica Neue;
+}
+
 #container-hero {
   width: 60%;
 }
