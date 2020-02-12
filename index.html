@@ -1,0 +1,36 @@
+<html lang="en" ng-app="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://creaton.netlify.com/pretzelstyle/v0.0.1/pretzelstyle.min.css">
+    <link rel="stylesheet" href="/bundles/css/style.css">
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.min.js" defer></script>
+    <script src="https://creaton.netlify.com/creativJS/v0.0.1/creativJS.min.js" defer></script>
+    <script src="/bundles/javascript/app.mjs" defer></script>
+    <title>Pretzel Style</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="container flow center-2">
+            <div id="wrapper-ribbon" class="container flow start-2">
+                <div id="ribbon" class="container fit just-flex orientation-horizontal">
+                    <h5 style="margin: 0 10px; width: fit-content">Pretzel Style</h5>
+                    <div class="container flow center-2 orientation-horizontal" style="width: fit-content;">
+                        <p class="navbar-option">Home</p>
+                        <p class="navbar-option">Documentation</p>
+                        <p class="navbar-option">Templates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div ng-controller="homeCtrl" ng-view>
+
+    </div>
+</body>
+</html>
